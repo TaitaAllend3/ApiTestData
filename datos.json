@@ -20,26 +20,6 @@
       "password": "duoc1234",
       "department": "Ingles",
       "subject": []
-    },
-    {
-      "id": "7aa2",
-      "username": "Jazmin",
-      "rut": "12345678-9",
-      "email": "jazmi123@gmail.com",
-      "phone": "123456789",
-      "address": "calle",
-      "password": "duoc1234",
-      "department": "Ingles"
-    },
-    {
-      "id": "d806",
-      "username": "ola",
-      "rut": "12345678-9",
-      "email": "ola@gmail.com",
-      "phone": "123456789",
-      "address": "calle",
-      "password": "duoc1234",
-      "department": "ola"
     }
   ],
   "estudiantes": [
@@ -87,15 +67,6 @@
       "address": "calle",
       "password": "duoc1234",
       "rut": 123456678
-    },
-    {
-      "id": "48cd",
-      "username": "ola",
-      "email": "ola@gmail.com",
-      "phone": 123456789,
-      "address": "calle",
-      "password": "duoc1234",
-      "rut": 123456789
     }
   ],
   "asignaturas": [
@@ -106,25 +77,7 @@
       "alumnosIds": [
         "0423",
         "0424",
-        "050b",
-        "8d10"
-      ]
-    },
-    {
-      "id": "asignatura892",
-      "nombre": "Ingles",
-      "profesorId": "7aa2",
-      "alumnosIds": [
-        "0423",
-        "8d10"
-      ]
-    },
-    {
-      "id": "asignatura3052",
-      "nombre": "ola",
-      "profesorId": "d806",
-      "alumnosIds": [
-        "48cd"
+        "050b"
       ]
     }
   ],
@@ -152,30 +105,13 @@
       "dia": "jueves"
     },
     {
-      "id": "clase7322",
-      "asignaturaId": "asignatura892",
-      "asignaturaNombre": "Ingles",
-      "profesorId": "7aa2",
+      "id": "clase7855",
+      "asignaturaId": "",
+      "asignaturaNombre": "olaaaaa",
+      "profesorId": "b83e",
       "profesorNombre": "Jazmin",
-      "presentes": [
-        "0423"
-      ],
-      "ausentes": [
-        "8d10"
-      ],
-      "dia": "Lunes"
-    },
-    {
-      "id": "clase3524",
-      "asignaturaId": "asignatura3052",
-      "asignaturaNombre": "ola",
-      "profesorId": "d806",
-      "profesorNombre": "ola",
-      "presentes": [
-        "48cd"
-      ],
-      "ausentes": [],
-      "dia": "Martes"
+      "presentes": [],
+      "dia": "lunessss"
     }
   ],
   "notificaciones": [
@@ -199,55 +135,6 @@
       "mensaje": "presente",
       "leido": false,
       "fecha": "2024-11-25T02:52:28.552Z"
-    },
-    {
-      "id": "769c",
-      "estudianteId": "0423",
-      "mensaje": "presente",
-      "leido": false,
-      "fecha": "2024-11-25T07:18:02.377Z"
-    },
-    {
-      "id": "4aa2",
-      "estudianteId": "8d10",
-      "mensaje": "presente",
-      "leido": false,
-      "fecha": "2024-11-25T07:18:02.381Z"
-    },
-    {
-      "id": "4e3b",
-      "estudianteId": "0423",
-      "mensaje": "presente",
-      "leido": false,
-      "fecha": "2024-11-25T07:18:34.156Z"
-    },
-    {
-      "id": "97dd",
-      "estudianteId": "8d10",
-      "mensaje": "ausente",
-      "leido": false,
-      "fecha": "2024-11-25T07:18:34.160Z"
-    },
-    {
-      "id": "8c79",
-      "estudianteId": "0423",
-      "mensaje": "presente",
-      "leido": false,
-      "fecha": "2024-11-25T07:18:35.279Z"
-    },
-    {
-      "id": "5b13",
-      "estudianteId": "8d10",
-      "mensaje": "ausente",
-      "leido": false,
-      "fecha": "2024-11-25T07:18:35.283Z"
-    },
-    {
-      "id": "2dd7",
-      "estudianteId": "48cd",
-      "mensaje": "presente",
-      "leido": false,
-      "fecha": "2024-11-25T21:49:37.172Z"
     }
   ]
 }
